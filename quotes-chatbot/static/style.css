@@ -1,0 +1,115 @@
+body{
+font-family: 'Segoe UI', sans-serif;
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg,#6a7cff,#b86adf);
+}
+
+/* Landing Page */
+
+#landing{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+width:100%;
+}
+
+.card{
+background: rgba(255,255,255,0.15);
+backdrop-filter: blur(10px);
+padding:40px;
+border-radius:20px;
+text-align:center;
+color:white;
+width:420px;
+box-shadow:0 8px 32px rgba(0,0,0,0.2);
+}
+
+.card h1{
+margin-bottom:10px;
+}
+
+.card button{
+margin-top:20px;
+padding:12px 25px;
+border:none;
+border-radius:25px;
+background:white;
+color:#6a7cff;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* Chat UI */
+
+#chatPage{
+display:none;
+flex-direction:column;
+width:420px;
+height:600px;
+background:white;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+padding:15px;
+}
+
+#chatPage h2{
+text-align:center;
+margin-bottom:10px;
+}
+
+#chatBox{
+flex:1;
+overflow-y:auto;
+padding:10px;
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+/* Chat bubbles */
+
+.user{
+align-self:flex-end;
+background:#4f8cff;
+color:white;
+padding:10px 15px;
+border-radius:15px 15px 0 15px;
+max-width:70%;
+}
+
+.bot{
+align-self:flex-start;
+background:#f1f1f1;
+padding:10px 15px;
+border-radius:15px 15px 15px 0;
+max-width:70%;
+}
+
+/* Input area */
+
+.inputArea{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+.inputArea input{
+flex:1;
+padding:10px;
+border-radius:20px;
+border:1px solid #ccc;
+}
+
+.inputArea button{
+padding:10px 15px;
+border:none;
+background:#4f8cff;
+color:white;
+border-radius:20px;
+cursor:pointer;
+}

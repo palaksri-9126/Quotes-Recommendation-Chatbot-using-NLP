@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Daily Inspiration</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<!-- Landing Page -->
+
+<div id="landing">
+
+<div class="card">
+
+<h1>Daily Inspiration</h1>
+
+<p>Your personal AI companion for wisdom, motivation and clarity.</p>
+
+<button onclick="startChat()">START CHATTING</button>
+
+</div>
+
+</div>
+
+
+<!-- Chatbot Page -->
+
+<div id="chatPage" style="display:none">
+
+<h2>Quotes Bot</h2>
+
+<div id="chatBox"></div>
+
+<div class="inputArea">
+
+<input type="text" id="userInput" placeholder="Type a message...">
+
+<button onclick="sendMessage()">Send</button>
+
+</div>
+
+</div>
+
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>
