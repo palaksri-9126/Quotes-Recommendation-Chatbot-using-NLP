@@ -118,6 +118,14 @@ http://127.0.0.1:5000
 
 ---
 
+## Snap Shots
+<img width="1905" height="924" alt="Screenshot 2026-03-10 221305" src="https://github.com/user-attachments/assets/ccf6d839-aa45-4c5d-8d62-b7bdb41ae82a" />
+<img width="1919" height="962" alt="Screenshot 2026-03-10 221319" src="https://github.com/user-attachments/assets/a4381ae0-5b52-4766-8e8f-4c2d550c65b2" />
+
+
+
+---
+
 ## How the System Works
 
 1. User enters a message in the chatbot interface.
